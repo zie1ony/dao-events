@@ -1,0 +1,12 @@
+[package]
+name = "parser"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hex = "0.4.3"
+blake2 = { version = "0.9.0", default-features = false }
+casper-types = "1.4.6"
+casper-dao-utils = { git = "https://github.com/make-software/dao-contracts", default-features = false }
